@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #d3d3d3;
+    color: black;
+    font-size: 30px;
+    font-size: bold;
+}
+
+.time {
+    font-size: 4.5em;
+}
+
+.exam-type, .exam-paper, .duration, .start-finish {
+    font-size: 1.5em;
+}
+
+.date, .start-finish, .duration {
+    font-weight: bold;
+}   
+
+.exam-info {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.exam-type {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.duration, .start-finish {
+    margin-top: 20px;
+}
+
+span[contenteditable="true"] {
+    border: 1px solid #ccc;
+    padding: 5px;
+    display: inline-block;
+    min-width: 50px;
+    text-align: center;
+    cursor: text;
+}
+
+span[contenteditable="true"]:focus {
+    outline: 2px solid #2196F3;
+}
+
+span[contenteditable="true"][style="color: red;"] {
+    font-weight: bold;
+}
+
+.start-finish div {
+    margin-top: 10px;
+}
+
+
+.center-info {
+    display: flex;
+    align-items: center;
+}
+
+.label {
+    margin-right: 5px;
+}
